@@ -1,0 +1,98 @@
+.photo {
+  height: 350px;
+  width: auto;
+  margin: 0;
+  object-fit: none;
+}
+.imgA {
+  height: 40px;
+  width: 40px;
+  margin: 0;
+}
+
+.image-cropped-calc {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.crop {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.geeks {
+  width: auto;
+  height: 350px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.geeks img {
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+}
+
+.geeks:hover img {
+  transform: scale(1.15);
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: rgb(255, 253, 253);
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 16px;
+  left: 36px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Center right text */
+.bottom-center {
+  position: absolute;
+  text-align: center;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centeredA {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 200%);
+  color: rgb(240, 243, 245);
+}
